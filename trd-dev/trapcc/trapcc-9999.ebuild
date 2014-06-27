@@ -4,8 +4,6 @@
 
 EAPI=5
 
-AUTOTOOLS_IN_SOURCE_BUILD=1
-
 inherit eutils subversion
 
 HOMEPAGE="http://alice.physi.uni-heidelberg.de/"
