@@ -3,18 +3,20 @@
 # $Header: $
 
 EAPI=5
-inherit eutils
+
+AUTOTOOLS_IN_SOURCE_BUILD=1
+
+inherit eutils subversion
 
 HOMEPAGE="http://alice.physi.uni-heidelberg.de/"
 
 if [[ ${PV} == "9999" ]] ; then
-	inherit subversion
 	ESVN_REPO_URI="http://alice.physi.uni-heidelberg.de/svn/trd/TRAP_compilers/trapcc/trunk"
-	ESVN_PROJECT="trapcc"
-	ESVN_BOOTSTRAP="./bootstrap"
 else
-	SRC_URI="http://TRD:1000e@alice.physi.uni-heidelberg.de/software/yum/RPMS/i386/${P}-1.i386.rpm"
+	ESVN_REPO_URI="http://alice.physi.uni-heidelberg.de/svn/trd/TRAP_compilers/trapcc/tags/${PV}"
 fi;
+ESVN_PROJECT="trapcc"
+ESVN_BOOTSTRAP="bootstrap"
 
 DESCRIPTION="TRD TRAP configuration compiler"
 
@@ -24,40 +26,9 @@ SLOT="0"
 
 MAKEOPTS="-j1"
 
-KEYWORDS="~x86 ~amd64"
+KEYWORDS=""
 
 IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-
-S="${WORKDIR}"
-
-src_unpack() {
-	if [[ ${PV} == "9999" ]] ; then
-	subversion_src_unpack
-	else
-	unpack ${A}
-	fi;
-}
-
-pkg_setup () {
-	einfo "setup"
-}
-
-pkg_configure() {
-	econf
-}
-
-pkg_compile() {
-	emake
-}
-
-pkg_postinst() {
-	einfo "postinst"
-}
-
-src_install() {
-	einfo "install"
-	emake DESTDIR="${D}" install || die
-}
