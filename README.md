@@ -1,4 +1,4 @@
 overlay
 =======
 
-Gentoo overlay
+Personal Gentoo overlay for ebuild testing
