@@ -1,4 +1,5 @@
 qgp overlay
 =======
 
-Personal Gentoo overlay for ebuild testing
+Personal Gentoo overlay containing various ebuilds under testing,
+including ALICE and TRD software.
