@@ -1,1 +1,1 @@
-=sys-devel/gcc:3.4.6 -fortran -nls
+sys-devel/gcc:3.4.6 -fortran -nls
