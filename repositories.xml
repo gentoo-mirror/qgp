@@ -2,10 +2,10 @@
 <repositories encoding="UTF-8" version="1.1">
   <repo priority="100" quality="experimental" status="unofficial">
     <name>qgp</name>
-    <description>Personal overlay for ebuild testing.</description>
+    <description>qgp overlay for ebuild development</description>
     <homepage>https://github.com/qgp/gentoo-qgp</homepage>
     <owner>
-      <email>Jochen.Klein@cern.ch</email>
+      <email>gentoo@qgp.io</email>
       <name>Jochen Klein</name>
     </owner>
     <source type="git">https://github.com/qgp/gentoo-qgp.git</source>
