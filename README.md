@@ -9,4 +9,11 @@ The overlay can be added using:
 layman -o https://raw.github.com/qgp/gentoo-qgp/master/repositories.xml -a qgp
 ```
 
-Configuration using  ```/etc/portage/repos.conf/``` still to be added.
+Alternatively, put a file ```qgp.conf``` into ```/etc/portage/repos.conf/``` which contains:
+```
+[qgp]
+location = /usr/local/overlay/qgp
+sync-type = git
+sync-uri = git://github.com/qgp/gentoo-qgp
+auto-sync = yes
+```
