@@ -1,0 +1,14 @@
+app-text/xmlto text
+dev-vcs/subversion -dso perl
+media-libs/libafterimage jpeg tiff gif
+
+>=dev-qt/qtcore-5.6.2-r1 icu
+>=dev-libs/libpcre-8.40-r1 pcre16
+>=sys-libs/zlib-1.2.11 minizip
+>=media-libs/phonon-vlc-0.9.0 qt5
+>=dev-libs/libdbusmenu-qt-0.9.3_pre20160218 qt5
+>=x11-libs/libxcb-1.12-r2 xkb
+>=sys-auth/polkit-qt-0.112.0-r1 qt5
+>=media-libs/gd-2.2.4 jpeg fontconfig truetype
+>=media-video/vlc-2.2.4-r1 vorbis ogg
+>=media-libs/phonon-4.9.0 qt5
