@@ -12,3 +12,6 @@ media-libs/libafterimage jpeg tiff gif
 >=media-libs/gd-2.2.4 jpeg fontconfig truetype
 >=media-video/vlc-2.2.4-r1 vorbis ogg
 >=media-libs/phonon-4.9.0 qt5
+
+>=sys-devel/llvm-3.9.1-r1 clang
+>=dev-libs/libgit2-0.24.6 threads
