@@ -17,6 +17,8 @@ app-editors/fte
 kde-apps/kate
 dev-util/kdevelop
 #dev-util/geany
+dev-util/meld
+app-misc/mc
 
 app-misc/screen
 x11-terms/xterm
@@ -30,6 +32,7 @@ kde-apps/kcachegrind
 app-doc/doxygen
 
 dev-vcs/git
+dev-vcs/tig
 dev-vcs/subversion
 
 sci-visualization/gnuplot
