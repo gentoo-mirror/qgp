@@ -1,6 +1,7 @@
 app-portage/portage-utils
 app-portage/gentoolkit
 app-portage/eix
+app-admin/sudo
 
 net-dns/bind-tools
 sys-apps/iproute2
@@ -12,7 +13,9 @@ sys-auth/pam_ldap
 
 app-editors/emacs
 app-editors/vim
-#kde-apps/kate
+app-editors/fte
+kde-apps/kate
+kde-apps/kdevelop
 #dev-util/geany
 
 app-misc/screen
