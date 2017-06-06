@@ -19,6 +19,7 @@ dev-util/kdevelop
 #dev-util/geany
 dev-util/meld
 app-misc/mc
+app-editors/sublime-text
 
 app-misc/screen
 x11-terms/xterm
@@ -30,6 +31,7 @@ dev-util/valgrind
 kde-apps/kcachegrind
 #kde-misc/massif-visualizer
 app-doc/doxygen
+app-text/texlive
 
 dev-vcs/git
 dev-vcs/tig
