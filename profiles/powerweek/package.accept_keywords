@@ -1,0 +1,7 @@
+net-nds/phpldapadmin ~amd64
+
+app-editors/sublime-text ~amd64
+
+kde-misc/massif-visualizer **
+dev-libs/kdiagram ~amd64
+media-gfx/kgraphviewer **
