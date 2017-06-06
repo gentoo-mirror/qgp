@@ -38,3 +38,4 @@ sci-physics/pythia:6
 sci-physics/pythia:8
 
 #www-client/firefox
+www-servers/apache
