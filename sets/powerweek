@@ -15,7 +15,7 @@ app-editors/emacs
 app-editors/vim
 app-editors/fte
 kde-apps/kate
-kde-apps/kdevelop
+dev-util/kdevelop
 #dev-util/geany
 
 app-misc/screen
