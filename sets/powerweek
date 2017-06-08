@@ -42,6 +42,7 @@ sci-physics/root
 sci-physics/pythia:6
 sci-physics/pythia:8
 sci-physics/vc
+dev-libs/boost
 
 #www-client/firefox
 www-servers/apache
