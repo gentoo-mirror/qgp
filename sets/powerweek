@@ -41,6 +41,7 @@ sci-visualization/gnuplot
 sci-physics/root
 sci-physics/pythia:6
 sci-physics/pythia:8
+sci-physics/vc
 
 #www-client/firefox
 www-servers/apache
