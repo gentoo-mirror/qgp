@@ -32,6 +32,8 @@ kde-apps/kcachegrind
 kde-misc/massif-visualizer
 app-doc/doxygen
 app-text/texlive
+sys-process/htop
+sys-process/time
 
 dev-vcs/git
 dev-vcs/tig
