@@ -17,3 +17,7 @@ sync-type = git
 sync-uri = git://github.com/qgp/gentoo-qgp
 auto-sync = yes
 ```
+e.g. with
+```
+curl https://raw.github.com/qgp/gentoo-qgp/master/qgp.conf -o /etc/portage/repos.conf/qgp.conf
+```

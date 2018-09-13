@@ -29,7 +29,7 @@ sys-devel/gdb
 dev-util/ddd
 dev-util/valgrind
 kde-apps/kcachegrind
-kde-misc/massif-visualizer
+dev-util/massif-visualizer
 app-doc/doxygen
 app-text/texlive
 sys-process/htop
