@@ -6,7 +6,7 @@ including ALICE and ALICE TRD software.
 
 The overlay can be added using:
 ```
-layman -o https://raw.github.com/qgp/gentoo-qgp/master/repositories.xml -a qgp
+layman -o https://raw.github.com/qgp/gentoo-qgp/master/metadata/repositories.xml -a qgp
 ```
 
 Alternatively, put a file ```qgp.conf``` into ```/etc/portage/repos.conf/``` which contains:
@@ -19,5 +19,5 @@ auto-sync = yes
 ```
 e.g. with
 ```
-curl https://raw.github.com/qgp/gentoo-qgp/master/qgp.conf -o /etc/portage/repos.conf/qgp.conf
+curl https://raw.github.com/qgp/gentoo-qgp/master/metadata/qgp.conf -o /etc/portage/repos.conf/qgp.conf
 ```
