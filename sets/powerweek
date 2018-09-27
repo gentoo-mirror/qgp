@@ -47,9 +47,15 @@ sci-physics/pythia:8
 sci-physics/vc
 dev-libs/boost
 
+sys-devel/clang
+sys-devel/llvm
 dev-util/nvidia-cuda-toolkit
 net-libs/zeromq
 net-libs/cppzmq
+sys-cluster/openmpi
+
+dev-util/perf
+dev-cpp/google-benchmark
 
 #www-client/firefox
 www-servers/apache
