@@ -1,23 +1,28 @@
-qgp overlay
-=======
+# qgp overlay
 
-Gentoo overlay containing ebuilds for different kinds of software,
-including ALICE and ALICE TRD software.
+This Gentoo overlay contains ebuilds for various packages, mostly related to 
+computing and HEP (in particular ALICE).
 
-The overlay can be added using:
+## Using the overlay
+
+The overlay can be enabled in various ways.
+
+### eselect-repository
+
+Add the overlay with:
 ```
-layman -o https://raw.github.com/qgp/gentoo-qgp/master/metadata/repositories.xml -a qgp
+eselect repository enable qgp
 ```
 
-Alternatively, put a file ```qgp.conf``` into ```/etc/portage/repos.conf/``` which contains:
-```
-[qgp]
-location = /usr/local/overlay/qgp
-sync-type = git
-sync-uri = git://github.com/qgp/gentoo-qgp
-auto-sync = yes
-```
-e.g. with
+### repos.conf
+Add [qgp.conf](https://raw.github.com/qgp/gentoo-qgp/master/metadata/qgp.conf) to
+```/etc/portage/repos.conf/```, e.g. using:
 ```
 curl https://raw.github.com/qgp/gentoo-qgp/master/metadata/qgp.conf -o /etc/portage/repos.conf/qgp.conf
+```
+
+### layman
+The overlay can be added using:
+```
+layman -a qgp
 ```
