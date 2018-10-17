@@ -9,9 +9,9 @@ inherit eutils subversion
 HOMEPAGE="http://alice.physi.uni-heidelberg.de/"
 
 if [[ ${PV} == "9999" ]] ; then
-	ESVN_REPO_URI="http://alice.physi.uni-heidelberg.de/svn/trd/TRAP_compilers/trapcc/trunk"
+	ESVN_REPO_URI="https://alice.physi.uni-heidelberg.de/svn/trd/TRAP_compilers/trapcc/trunk"
 else
-	ESVN_REPO_URI="http://alice.physi.uni-heidelberg.de/svn/trd/TRAP_compilers/trapcc/tags/${PV}"
+	ESVN_REPO_URI="https://alice.physi.uni-heidelberg.de/svn/trd/TRAP_compilers/trapcc/tags/${PV}"
 fi;
 ESVN_PROJECT="trapcc"
 ESVN_BOOTSTRAP="bootstrap"
