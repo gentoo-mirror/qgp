@@ -2,7 +2,5 @@ ACCEPT_KEYWORDS="~${ARCH}"
 
 USE="python dbus X qt3support png emacs vim
 ssl sasl gnutls ldap dbus"
-#jpeg png svg gif tiff ogg vorbis
-#X
-#python
-#subversion git
+
+PHP_TARGETS=php7-2

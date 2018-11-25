@@ -49,7 +49,7 @@ dev-libs/boost
 
 sys-devel/clang
 sys-devel/llvm
-dev-util/nvidia-cuda-toolkit
+#dev-util/nvidia-cuda-toolkit
 net-libs/zeromq
 net-libs/cppzmq
 sys-cluster/openmpi
