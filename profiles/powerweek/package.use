@@ -1,3 +1,4 @@
+net-dns/bind -python
 sys-apps/util-linux tty-helpers
 app-text/xmlto text
 dev-vcs/subversion -dso perl
