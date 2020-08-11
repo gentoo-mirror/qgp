@@ -1,0 +1,8 @@
+dev-db/sqlite
+dev-lang/python
+virtual/glu
+sci-libs/gsl
+media-libs/glfw
+app-arch/lz4
+dev-libs/flatbuffers
+net-libs/zeromq
