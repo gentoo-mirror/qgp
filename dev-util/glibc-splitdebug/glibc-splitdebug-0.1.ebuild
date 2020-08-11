@@ -4,8 +4,6 @@
 EAPI=7
 
 DESCRIPTION="splitdebug settings for glibc"
-HOMEPAGE=""
-URI=""
 
 LICENSE="metapackage"
 SLOT="0"
@@ -16,11 +14,16 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-pkg_config() {
+src_unpack() {
+  mkdir ${P}
+}
+
+src_install() {
   einfo "Installing splitdebug.conf"
   insinto /etc/portage/env
   doins ${FILESDIR}/splitdebug.conf
 
-  insinto /etc/portacke/package.env
+  einfo "Installing glibc.conf"
+  insinto /etc/portage/package.env
   doins ${FILESDIR}/glibc.conf
 }
