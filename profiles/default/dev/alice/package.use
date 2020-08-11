@@ -1,0 +1,5 @@
+dev-lang/python sqlite
+sci-physics/geant -c++11 -c++14 c++17
+sci-physics/geant-vmc -c++11 -c++14 c++17 rootvmc vgm
+sci-physics/root fftw graphviz fits examples http minuit roofit pythia6 pythia8 vc -daemon xrootd alien monalisa ldap -qt5 aqua fortran math arrow -davix -cuda -c++11 -c++14 c++17 nosplash vmc
+sci-physics/vgm -c++11 -c++14 c++17
