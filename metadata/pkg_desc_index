@@ -1,7 +1,6 @@
 dev-cpp/google-benchmark 1.3.0 1.5.1: Google's microbenchmark support library for C++
 dev-util/glibc-splitdebug 0.1: splitdebug settings for glibc
 sci-alice/alibuild 1.5.0 1.6.1: A simple build tool for the ALICE software and its externals
-sci-physics/alibuild 1.5.3: ALICE Build Tool
 sci-physics/aliroot 9999: ALICE simullation and reconstruction framework
 sci-physics/vc 1.3.2 1.4.1 9999: Vc
 trd-dev/libdim 9999: DIM library
